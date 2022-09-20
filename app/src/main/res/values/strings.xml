@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">WeatherTest</string>
+    <string name="weather_launcher_activity_logo_content_description">Sol entre nuvens</string>
 </resources>
