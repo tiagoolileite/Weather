@@ -11,6 +11,13 @@
         android:theme="@style/Theme.Weather"
         tools:targetApi="33">
         <activity
+            android:name=".ui.MainActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".ui.LauncherActivity"
             android:exported="true">
             <intent-filter>
